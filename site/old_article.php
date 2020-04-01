@@ -4,7 +4,7 @@ $artId = 0;
 
 
 $arts = [
-  "https://new.beautyhack.ru/telo/test",
+  "https://new.beautyhack.ru//intervyu/luchshie-momenty-v-istorii-oskara-v-fotografiyah",
   // "https://new.beautyhack.ru/victoriny/viktorina-ugaday-kto-iz-zvezd-s-nakladnoy-chelkoy",
   // "https://new.beautyhack.ru/testy/test-speshite-li-vy-zhit",
   // 'https://new.beautyhack.ru//krasota/kosmetichka-zvezdy-lyubimye-sredstva-lizy-chepel',
@@ -47,10 +47,6 @@ $artHTML = get_old_art_content($arts[$artId]);
       <?php
       echo $artHTML;
       ?>
-
-      <script>
-        console.log('inline');
-      </script>
 
     </div>
   </div>

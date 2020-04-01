@@ -1,5 +1,5 @@
 import { DOM } from '../DOM/index.js';
-import { loadAdriverAjax } from "../loadAdriverAjax";
+
 const Promise = require('es6-promise').Promise;
 
 export class LoadAjaxArticle extends DOM {
@@ -240,6 +240,7 @@ export class LoadAjaxArticle extends DOM {
         this.appendContainer(newContent);
 
         this.execInlineJs(newContent);
+
 
         if (this.afterLoad) {
 

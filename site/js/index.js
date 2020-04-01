@@ -70,6 +70,8 @@ import { oldArtFixQuiz } from "./fixOldArticleHTML/oldArtFixQuiz";
 import { oldArtFloat } from "./fixOldArticleHTML/oldArtFloat";
 import { fixAdriverEmptyBanner } from "./fixAdriverEmptyBanner";
 
+import { sendReadedArticle } from "./sendReadedArticle";
+
 
 export const dynamicScripts = (container) => {
   objectFit(container);
@@ -102,6 +104,9 @@ export const dynamicScripts = (container) => {
   fixAdriverEmptyBanner(container);
 
   oldArtFixBanner(container);
+
+
+  sendReadedArticle(container);
 
 }
 
