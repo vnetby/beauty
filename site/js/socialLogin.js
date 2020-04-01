@@ -2,7 +2,7 @@ import { DOM } from "./DOM/DOM";
 let dom = new DOM;
 
 const LOGIN_BTNS = [
-  ['#realVkLogin', '.logn-vk-btn'],
+  ['#realVkLogin', '.login-vk-btn'],
   ['#realFbLogin', '.login-fb-btn'],
 ];
 

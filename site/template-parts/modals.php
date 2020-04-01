@@ -121,7 +121,7 @@
                 </p>
                 <div class="social-login">
                   <div class="btn-wrap">
-                    <a href="#" class="btn has-ico btn-vk logn-vk-btn">
+                    <a href="#" class="btn has-ico btn-vk login-vk-btn">
                       <span class="ico">
                         <?= $svg->get_ico('vk'); ?>
                       </span>
@@ -197,7 +197,7 @@
                 </p>
                 <div class="social-login">
                   <div class="btn-wrap">
-                    <a href="#" class="btn has-ico btn-vk logn-vk-btn">
+                    <a href="#" class="btn has-ico btn-vk login-vk-btn">
                       <span class="ico">
                         <?= $svg->get_ico('vk'); ?>
                       </span>
