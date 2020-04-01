@@ -71,6 +71,7 @@ import { oldArtFloat } from "./fixOldArticleHTML/oldArtFloat";
 import { fixAdriverEmptyBanner } from "./fixAdriverEmptyBanner";
 
 import { sendReadedArticle } from "./sendReadedArticle";
+import { socialLogin } from "./socialLogin";
 
 
 export const dynamicScripts = (container) => {
@@ -118,6 +119,7 @@ export const staticScripts = () => {
   subscribeModal();
   new ArticlePage;
   new AjaxSearch;
+  socialLogin();
 }
 
 
