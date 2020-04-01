@@ -235,7 +235,7 @@ export class LoadAjaxArticle extends DOM {
 
         if (this.hasPreload) this.removePreloader();
 
-        this.resetDiscuss(newContent);
+        this.removeDiscuss(newContent);
 
         this.appendContainer(newContent);
 
@@ -280,53 +280,14 @@ export class LoadAjaxArticle extends DOM {
 
 
 
-  resetDiscuss(newContent) {
-    let wrap = dom.findFirst('.disqus-wrap', newContent);
+  removeDiscuss(newContent) {
+    let wrap = this.findFirst('.disqus-wrap', newContent);
     if (wrap) {
       wrap.parentNode.removeChild(wrap);
     }
-    // this.removeDiscussContainer(newContent);
-    // setTimeout(() => {
-
-    //   let wrap = this.findFirst('.comments', newContent);
-    //   if (!wrap) return;
-
-    //   let url = wrap.dataset.postUrl;
-    //   let id = wrap.dataset.postId;
-
-    //   DISQUS.reset({
-    //     reload: true,
-    //     config: function () {
-    //       this.page.identifier = id;
-    //       this.page.url = url;
-    //     }
-    //   });
-
-    //   console.log(DISQUS);
-    // }, 200);
-
   }
 
 
-
-  removeDiscussContainer(newContent) {
-    // let currentWrap = dom.findFirst('#disqus_thread', newContent);
-    let wrap = this.findFirst('#disqus_thread');
-    if (!wrap) return;
-    wrap.removeAttribute('id');
-  }
-
-
-  execDisqus(script) {
-    // let html = script.innerHTML;
-    // let conf = html.match(/disqus_config[\s]*\=[\s]*function[\s]*\([\s]*\)[\s]*\{[\s]*(.*?)\}[\s]*;/s);
-    // if (!conf || !conf[1]) return;
-
-    // conf = conf[1];
-    // console.log(conf);
-    // let url = conf.math(/this\.page\.url[\s]*=[\s]*[\'\"][\s]*(.*?)[\'\"];/s);
-    // console.log(url);
-  }
 
 
   displayResponseContainer(newContent) {

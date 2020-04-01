@@ -67,6 +67,7 @@ import { oldArtBlockquote } from "./fixOldArticleHTML/oldArtBlockquote";
 import { oldArtRemoveUnusedElements } from "./fixOldArticleHTML/oldArtRemoveUnusedElements";
 import { oldArtFixTest } from "./fixOldArticleHTML/oldArtFixTest";
 import { oldArtFixQuiz } from "./fixOldArticleHTML/oldArtFixQuiz";
+import { oldArtFloat } from "./fixOldArticleHTML/oldArtFloat";
 import { fixAdriverEmptyBanner } from "./fixAdriverEmptyBanner";
 
 
@@ -86,39 +87,32 @@ export const dynamicScripts = (container) => {
   dismissModal(container);
   new FormValidate(container);
 
-  // artLoopBanners(container);
 
 
   oldArtFullSliderNav(container);
   oldArtBigSlider(container);
   oldArtAuthorBlock(container);
-  oldArtFixBanner(container);
   oldArtBlockquote(container);
   oldArtRemoveUnusedElements(container);
   oldArtFixTest(container);
+  oldArtFloat(container);
 
   oldArtFixQuiz(container, !!container);
 
   fixAdriverEmptyBanner(container);
 
+  oldArtFixBanner(container);
 
 }
 
 
 
 export const staticScripts = () => {
-  // window.dom = new DOM;
   new Header();
   loginModal();
   subscribeModal();
-  // new Tabs('.list-articles.has-tabs');
-  // new Tabs('.list-authors.has-tabs');
   new ArticlePage;
   new AjaxSearch;
-  // new AnimateClick({
-  //   excludeTags: [],
-  //   duration: 500
-  // });
 
   let script = document.createElement('script');
   script.src = 'https://beautyhack1.disqus.com/embed.js';
@@ -133,13 +127,3 @@ dynamicScripts();
 
 
 
-
-
-// var adBanner_2 = new adriver("adriver_banner_1097999900", {
-//   sid: 210980,
-//   bt: 52,
-//   bn: 9,
-//   onLoadComplete: function () { console.log(arguments) }
-// });
-// adBanner_2.onLoadComplete = function () { console.log(arguments) }
-// console.log(adBanner, "2"); // 2 - data-index баннера куда грузится
