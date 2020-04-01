@@ -113,11 +113,6 @@ export const staticScripts = () => {
   subscribeModal();
   new ArticlePage;
   new AjaxSearch;
-
-  let script = document.createElement('script');
-  script.src = 'https://beautyhack1.disqus.com/embed.js';
-
-  document.head.appendChild(script);
 }
 
 
