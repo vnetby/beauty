@@ -46,13 +46,13 @@ const SCRIPTS = env => {
                   sourceMap: true
                 }
               },
-              {
-                loader: 'postcss-loader',
-                options: {
-                  plugins: [autoprefixer({ grid: true })],
-                  sourceMap: true
-                }
-              },
+              // {
+              //   loader: 'postcss-loader',
+              //   options: {
+              //     plugins: [autoprefixer({ grid: true })],
+              //     sourceMap: true
+              //   }
+              // },
               {
                 loader: 'less-loader',
                 options: {
