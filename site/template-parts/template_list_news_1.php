@@ -796,5 +796,256 @@ add class "no-banner"
 
 
 
+    <!-- 15 -->
+    <div class="art-card-col">
+    <div class="card">
+
+      <a href="#" class="thumb hover-overlay">
+        <img class="object-cover" src="<?= URL; ?>img/news-block-home/16.jpg" alt="как я две недели тестировала Achronim">
+        <span class="card-date fs-xm">Сегодня в 11:47</span>
+        <div class="overlay fs-xxm">
+          <div class="overlay-content">
+            <span>
+              читать полностью
+            </span>
+          </div>
+        </div>
+      </a>
+
+
+      <div class="card-meta">
+        <a href="#" class="cat fs-xm">Красота и здоровье</a>
+        <div class="views">
+          <span class="ico eye">
+            <?= $svg->get_ico('eye'); ?>
+          </span>
+          <span class="count fs-s">2k</span>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <a href="#" class="card-title fs-xl">
+          Почему 8 часов сна – обязательная норма для кажого?
+        </a>
+        <div class="card-author fs-xm">
+          <a href="#">Маргарита Лиева</a> • 7 минут чтения
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+    <!-- 16 -->
+    <div class="art-card-col">
+    <div class="card">
+
+      <a href="#" class="thumb hover-overlay">
+        <img class="object-cover" src="<?= URL; ?>img/news-block-home/16.jpg" alt="как я две недели тестировала Achronim">
+        <span class="card-date fs-xm">Сегодня в 11:47</span>
+        <div class="overlay fs-xxm">
+          <div class="overlay-content">
+            <span>
+              читать полностью
+            </span>
+          </div>
+        </div>
+      </a>
+
+
+      <div class="card-meta">
+        <a href="#" class="cat fs-xm">Красота и здоровье</a>
+        <div class="views">
+          <span class="ico eye">
+            <?= $svg->get_ico('eye'); ?>
+          </span>
+          <span class="count fs-s">2k</span>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <a href="#" class="card-title fs-xl">
+          Почему 8 часов сна – обязательная норма для кажого?
+        </a>
+        <div class="card-author fs-xm">
+          <a href="#">Маргарита Лиева</a> • 7 минут чтения
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+    <!-- 17 -->
+    <div class="art-card-col">
+    <div class="card">
+
+      <a href="#" class="thumb hover-overlay">
+        <img class="object-cover" src="<?= URL; ?>img/news-block-home/16.jpg" alt="как я две недели тестировала Achronim">
+        <span class="card-date fs-xm">Сегодня в 11:47</span>
+        <div class="overlay fs-xxm">
+          <div class="overlay-content">
+            <span>
+              читать полностью
+            </span>
+          </div>
+        </div>
+      </a>
+
+
+      <div class="card-meta">
+        <a href="#" class="cat fs-xm">Красота и здоровье</a>
+        <div class="views">
+          <span class="ico eye">
+            <?= $svg->get_ico('eye'); ?>
+          </span>
+          <span class="count fs-s">2k</span>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <a href="#" class="card-title fs-xl">
+          Почему 8 часов сна – обязательная норма для кажого?
+        </a>
+        <div class="card-author fs-xm">
+          <a href="#">Маргарита Лиева</a> • 7 минут чтения
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+    <!-- 18 -->
+    <div class="art-card-col">
+    <div class="card">
+
+      <a href="#" class="thumb hover-overlay">
+        <img class="object-cover" src="<?= URL; ?>img/news-block-home/16.jpg" alt="как я две недели тестировала Achronim">
+        <span class="card-date fs-xm">Сегодня в 11:47</span>
+        <div class="overlay fs-xxm">
+          <div class="overlay-content">
+            <span>
+              читать полностью
+            </span>
+          </div>
+        </div>
+      </a>
+
+
+      <div class="card-meta">
+        <a href="#" class="cat fs-xm">Красота и здоровье</a>
+        <div class="views">
+          <span class="ico eye">
+            <?= $svg->get_ico('eye'); ?>
+          </span>
+          <span class="count fs-s">2k</span>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <a href="#" class="card-title fs-xl">
+          Почему 8 часов сна – обязательная норма для кажого?
+        </a>
+        <div class="card-author fs-xm">
+          <a href="#">Маргарита Лиева</a> • 7 минут чтения
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+    <!-- 19 -->
+    <div class="art-card-col">
+    <div class="card">
+
+      <a href="#" class="thumb hover-overlay">
+        <img class="object-cover" src="<?= URL; ?>img/news-block-home/16.jpg" alt="как я две недели тестировала Achronim">
+        <span class="card-date fs-xm">Сегодня в 11:47</span>
+        <div class="overlay fs-xxm">
+          <div class="overlay-content">
+            <span>
+              читать полностью
+            </span>
+          </div>
+        </div>
+      </a>
+
+
+      <div class="card-meta">
+        <a href="#" class="cat fs-xm">Красота и здоровье</a>
+        <div class="views">
+          <span class="ico eye">
+            <?= $svg->get_ico('eye'); ?>
+          </span>
+          <span class="count fs-s">2k</span>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <a href="#" class="card-title fs-xl">
+          Почему 8 часов сна – обязательная норма для кажого?
+        </a>
+        <div class="card-author fs-xm">
+          <a href="#">Маргарита Лиева</a> • 7 минут чтения
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+    <!-- 20 -->
+    <div class="art-card-col">
+    <div class="card">
+
+      <a href="#" class="thumb hover-overlay">
+        <img class="object-cover" src="<?= URL; ?>img/news-block-home/16.jpg" alt="как я две недели тестировала Achronim">
+        <span class="card-date fs-xm">Сегодня в 11:47</span>
+        <div class="overlay fs-xxm">
+          <div class="overlay-content">
+            <span>
+              читать полностью
+            </span>
+          </div>
+        </div>
+      </a>
+
+
+      <div class="card-meta">
+        <a href="#" class="cat fs-xm">Красота и здоровье</a>
+        <div class="views">
+          <span class="ico eye">
+            <?= $svg->get_ico('eye'); ?>
+          </span>
+          <span class="count fs-s">2k</span>
+        </div>
+      </div>
+
+      <div class="card-content">
+        <a href="#" class="card-title fs-xl">
+          Почему 8 часов сна – обязательная норма для кажого?
+        </a>
+        <div class="card-author fs-xm">
+          <a href="#">Маргарита Лиева</a> • 7 минут чтения
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+
+
 
 </div>

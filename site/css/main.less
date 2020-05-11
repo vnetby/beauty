@@ -862,7 +862,7 @@
     .card,
     .card .thumb,
     .card .thumb img {
-      height: inherit !important;
+      height: 100% !important;
     }
   }
 
@@ -880,6 +880,14 @@
     &:nth-child(7),
     &:nth-child(14) {
       .large-news();
+    }
+    &:last-child {
+      .like-col-sm-6();
+      .card,
+      .card .thumb,
+      .card .thumb img {
+        height: auto !important;
+      }
     }
   }
 }
