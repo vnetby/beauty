@@ -2531,8 +2531,8 @@ figure {
 
 .hover-overlay {
   &:after {
-    @media ( max-width: 991.9px ) {
-      display: none!important;
+    @media (max-width: 991.9px) {
+      display: none !important;
     }
   }
   &:hover:after {
@@ -2845,6 +2845,109 @@ figure {
       &:last-child {
         padding-right: 0;
       }
+    }
+  }
+}
+
+.new-list-arts {
+  margin-left: -10px;
+  margin-right: -10px;
+  // padding-left: 5px;
+  // padding-right: 5px;
+  .news-col {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .new-news-card {
+    display: block;
+    position: relative;
+    height: 140px;
+    color: #fff;
+    padding: 12px;
+    &:hover {
+      color: #fff;
+    }
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.32);
+      z-index: 1;
+      transition: 0.3s;
+    }
+    display: flex;
+  }
+  .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .title {
+    position: relative;
+    z-index: 2;
+    margin-top: auto;
+    font-size: 14px;
+    line-height: 1.57;
+    font-weight: bold;
+  }
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  @media (max-width: 991.9px) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  @media (max-width: 767.9px) {
+    padding: 0;
+    margin-left: -7px;
+    margin-right: -7px;
+    .title {
+      display: none;
+    }
+    .news-col {
+      display: flex;
+      padding-left: 7px;
+      padding-right: 7px;
+    }
+    .new-news-card {
+      width: 92px;
+      height: 92px;
+      margin: auto;
+      flex-shrink: 0;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 1px solid #eb5757;
+      padding: 0;
+      &:before {
+        display: none;
+      }
+      .bg {
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        overflow: hidden;
+        width: calc(100% - 6px);
+        height: calc(100% - 6px);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  @media (max-width: 575.9px) {
+    .new-news-card {
+      width: 62px;
+      height: 62px;
     }
   }
 }

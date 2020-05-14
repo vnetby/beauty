@@ -4,7 +4,10 @@
       <h2 class="section-title fs-xl">Лучшее за месяц</h2>
     </div>
   </div>
-  <div class="row content-row">
+  <?php
+  require('template-new-news-list.php');
+  ?>
+  <!-- <div class="row content-row">
 
     <div class="col-sm-3 better-col">
       <div class="card">
@@ -70,5 +73,5 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
 </section>
